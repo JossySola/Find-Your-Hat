@@ -1,7 +1,7 @@
 module.exports = class Field {
     constructor(width, height) {
-        !width || typeof width != 'number' ? width = 5 : width;
-        !height || typeof height != 'number' ? height = 5 : height;
+        !width || typeof width !== 'number' || width < 3 ? width = 5 : width;
+        !height || typeof height !== 'number' || height < 3 ? height = 5 : height;
         this.width = width;
         this.height = height;
         this.field = [];
