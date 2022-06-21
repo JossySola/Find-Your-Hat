@@ -42,7 +42,14 @@ module.exports = class Field {
             break;
 
             case 'u':
-                this.field[this.y-1][this.x] ? this.y-- : this.y;
+                if(this.field[this.y-1] == undefined) {
+                    return this.y = 0;
+                } else if(this.field[this.y-1][this.x]) {
+                    this.y--;
+                } else {
+                    this.y = this.y;
+                }
+                //this.field[this.y-1][this.x] ? this.y-- : this.y;
             break;
 
             case 'l':
