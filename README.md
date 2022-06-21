@@ -19,4 +19,4 @@ Find Your Hat / Codecademy Project
   - Export/Import
 
 ### Mocha TDD
-![Screenshot of Mocha passed test in Bash](/mochatest.png)
+![Screenshot of Mocha passed test in Bash](/mochaTest.png)
