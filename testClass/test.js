@@ -66,14 +66,14 @@ class Field {
 
         // Change field symbol at index as long as the index is not already an asterisk
         if(this.field[this.y][this.x] === '^') {
-            this.print();
+           //this.print();
             return 'hat';
         } else if(this.field[this.y][this.x] === '*') {
-            this.print();
+            //this.print();
             return 'asterisk';
         } else {
             this.field[this.y][this.x] = sym;
-            this.print();
+            //this.print();
             return this.field[this.y][this.x] === 'O' ? 'hole' : 'asterisk';
         }
     }
@@ -273,7 +273,6 @@ describe('class Field', function() {
                 const down2 = example.move('d');
                 const right2 = example.move('r');
 
-                console.log(right + ' ' + down + ' ' + down2 + ' ' + right2);
                 // VERIFY
                 assert.ok(right && right2 && down && down2);
             })
