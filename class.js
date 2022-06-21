@@ -7,7 +7,7 @@ module.exports = class Field {
         this.field = [];
         this.range = this.width * this.height;
         this.hatLikelihood = this.range * 0.15;
-        this.holeLikelihood = this.range * 0.35;
+        this.holeLikelihood = this.range * 0.2;
         this.existHat = false;
         for(let x = 0; x < height; x++) {
             this.field.push([]);
