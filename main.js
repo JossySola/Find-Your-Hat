@@ -31,10 +31,20 @@ while(result != 'hat' || result != 'hole') {
     if(userMove === 'hat') {
         console.log(" Yay, you found your hat!");
         result = 'hat';
-        return;
+        console.log(' ');
+        console.log('GAME OVER');
+        console.log('Restarting game...');
+        console.log(' ');
+        instance = new Field(Number(widthChoice),Number(heightChoice));
+        instance.print();
     } else if(userMove === 'hole') {
         console.log("You fell into a hole... at least you won't sunburn without your hat inside there");
         result = 'hole';
-        return;
+        console.log(' ');
+        console.log('GAME OVER');
+        console.log('Restarting game...');
+        console.log(' ');
+        instance = new Field(Number(widthChoice),Number(heightChoice));
+        instance.print();
     }
 }
