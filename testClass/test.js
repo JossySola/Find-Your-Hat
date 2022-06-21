@@ -78,9 +78,6 @@ class Field {
         }
     }
 };
-
-module.exports = { Field };
-
 // ************************ TEST ************************
 describe('class Field', function() {
     it('accepts a Width and a Height value', function () {
