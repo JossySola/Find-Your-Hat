@@ -7,7 +7,7 @@ Find Your Hat / Codecademy Project
 3. Use the command: `$ cd [Filepath]` to make 'Find Your Hat' your current working directory
 4. Use `$ node main.js` to execute the JavaScript file and start the game
     - The instructions of the game are displayed immediately
-    - Once the game is over, you'll have to use the command `$ node main.js` again to start a new game
+    - Once the game is over, the game will start again. In order to exit the program, press `Ctrl + C`.
 
 ![Screenshot of game executed in Bash](/gameExecuted.png)
 
