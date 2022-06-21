@@ -17,3 +17,6 @@ Find Your Hat / Codecademy Project
   - **TDD**
 - JavaScript module
   - Export/Import
+
+### Mocha TDD
+![Screenshot of Mocha passed test in Bash](/mochatest.png)
